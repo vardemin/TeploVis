@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>СALOREM VITAE</title>
+    <link href="{{ STATIC_URL }}css/normalize.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/skeleton.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    {%  block header %}
+    <div class="head">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 class="head_txt"><a> Тепловиз - солнце в вашем доме</a> </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <h5 class="head_txt">Интернет-магазин современных электрических отопительных систем</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <a class="flat_button head_txt">Главная</a>
+                </div>
+                <div class="four columns">
+                    <a class="flat_button head_txt">Выбор товаров</a>
+                </div>
+                <div class="four columns">
+                    <a class="flat_button head_txt">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</header>
+{% block content %}
+    <div class="container content_wrap">
+        <h2 class="head_txt"> АЗАЗЗАЗАЗ </h2>
+    </div>
+{% endblock %}
+</body>
+</html>

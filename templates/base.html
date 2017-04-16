@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>ТЕПЛОВИЗ</title>
+    <link href="{{ STATIC_URL }}css/normalize.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/skeleton.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    {%  block header %}
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="one-third column">
+                    <h2 class="head_txt logo">
+                        ТЕПЛО ВИЗ
+                    </h2>
+                </div>
+                <div class="two-thirds column">
+                    <div class="three columns">
+                        <a class="flat_button" href="/about">О нас</a>
+                    </div>
+                    <div class="three columns">
+                        <a class="flat_button" href="/goods/heaters/">Товары</a>
+                    </div>
+                    <div class="three columns">
+                        <a class="flat_button" href="/delivery">Доставка</a>
+                    </div>
+                    <div class="three columns">
+                        <a class="cart" href="/cart"><img src="{{ STATIC_URL }}img/cart.png"><span>0</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</header>
+    <div class="ribbon"></div>
+    <div class="container content">
+{% block content %}
+
+
+{% endblock %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Модель</th>
+      <th>Мощность нагрева, Вт</th>
+      <th>Температура раб. поверхности, C</th>
+      <th>Напряжение питания, В</th>
+      <th>Вес, кг</th>
+      <th>Габариты, мм</th>
+      <th>Цена, руб.</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for good in heater_list %}
+    <tr>
+        <td><img src="{{ good.img.url }}"><h4>{{ good.name }}</h4></td>
+        <td>{{ good.power }}</td>
+        <td>{{ good.temp }}</td>
+        <td>{{ good.voltage }}</td>
+        <td>{{ good.weight }}</td>
+        <td>{{ good.dimensions }}</td>
+        <td>{{ good.price }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+
+{% endblock %}

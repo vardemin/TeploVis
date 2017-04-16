@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Raleway-Thin;
+    src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: Nautilus;
+    src: url(../fonts/Nautilus.otf);
+}
+body {
+    font-family: Raleway-Thin;
+}
+.head {
+    background: url("../img/back4.jpg");
+    background-size: cover;
+    /*height: 22rem;*/
+    border-radius: 5% 25%;
+    position: relative;
+    box-shadow: 0 0 3rem rgba(9, 106, 202, 0.84);
+}
+.head_txt a{
+    color: white;
+}
+.head_txt {
+    color: white;
+    text-shadow: 0 0 0.3rem rgba(15, 0, 255, 0.79);
+    text-align: center;
+}
+.head .container {
+    padding-bottom: 3%;
+}
+.flat_button {
+    display: block;
+    /*border-radius: 3rem;*/
+    background-color: rgba(134, 134, 146, 0.25);
+    border: 1px solid white;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+    /*transition: border 0.3s ease-in-out 0.1s, color 0.3s ease-in-out 0.1s,  background-color 0.3s ease-in-out 0.1s;*/
+}
+.content_wrap {
+    position: relative;
+    background-color: rgba(134, 134, 146, 0.50);
+    box-shadow: 0 0 3rem rgba(9, 106, 202, 0.84);
+}

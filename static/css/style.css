@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Raleway-Thin;
+    src: url(../fonts/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: Docker;
+    src: url("../fonts/docker.two.ttf");
+}
+@font-face {
+    font-family: Resphekt;
+    src: url("../fonts/Resphekt.ttf");
+}
+table img {
+    width: 15rem;
+}
+.head_txt {
+    color: white;
+    text-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar a {
+    color: white;
+}
+body {
+    background: url("../img/back4.jpg") 100% fixed;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+.logo {
+    font-family: Docker;
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+}
+.navbar {
+    background-color: rgba(32, 32, 32, 0.5);
+}
+
+.ribbon {
+    margin-top: 10px;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background: url("../img/bar_top1.png") no-repeat;
+    background-size: 100% 60px;
+    z-index: 2;
+}
+.content{
+    padding-top: 3rem;
+    margin-top: 30px;
+    background-color: rgba(32, 32, 32, 0.5) ;
+}
+.content .row {
+    padding-top: 30px;
+}
+.flat_button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    /*border-radius: 3rem;*/
+    border: 1px solid white;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+    /*transition: border 0.3s ease-in-out 0.1s, color 0.3s ease-in-out 0.1s,  background-color 0.3s ease-in-out 0.1s;*/
+}
+.flat_button:hover {
+    background-color: rgba(241, 241, 255, 0.25);
+}
+.cart {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 3rem;
+    height: 3em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.cart img {
+    height: 100%;
+    display: inline;
+}
+.cart span {
+    text-shadow: 0 0 0.5rem #FFFC00;
+}
